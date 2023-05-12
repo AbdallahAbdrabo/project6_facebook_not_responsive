@@ -150,28 +150,3 @@ bg3.addEventListener('click',()=>{
     bg3.classList.add('active')
     changebg()
 })
-
-
-
-
-
-
-submit.addEventListener('click', () => {
-    
-   let newpost = document.querySelector('#post').cloneNode(true);
-   middle.appendChild(newpost);
-   newpost.children[1].children[0].textContent=text.value
-   text.value=''
- });
-// let submit = document.querySelector('#submit11');
-// let middle = document.querySelector('.middle');
-
-// submit.addEventListener('click', () => {
-//   let newpost = document.querySelector('#post').cloneNode(true);
-  
-//   for (let i = 0; i < 4; i++) {
-//     middle.appendChild(newpost.cloneNode(true));
-//   }
-// });
-
-
